@@ -1,6 +1,9 @@
 /*
 design responsive website
 */
+.mb-6{
+    margin-bottom:96px;
+}
 .bg-nayana{
     background-color: yellow;
 }
