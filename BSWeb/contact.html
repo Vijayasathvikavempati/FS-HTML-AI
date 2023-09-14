@@ -18,13 +18,61 @@
             </ul>
         </div>
     </nav>
-    <div>
-        <h1>Contact Page</h1>
-    </div>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+        </ol>
+    </nav>
     <div class="container">
         <div class="row">
             <div class="col-6">
                 <!-- form -->
+                <form>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name"/>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Email" />
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Mobile" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Subject" />
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="form-group">
+                                <select class="form-control" >
+                                    <option >Web Dev</option>
+                                    <option >Mobile Dev</option>
+                                    <option >App Dev</option>
+                                    <option >Hybrid Dev</option>
+                                    <option >Games Dev</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <textarea placeholder="Message" rows="4" class="form-control"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-warning">Submit Comments</button>
+                </form>
             </div>
             <div class="col-6">
                 <iframe
